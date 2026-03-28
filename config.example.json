@@ -1,0 +1,17 @@
+{
+  "season": 2025,
+  "leagues": [39, 140, 135, 78],
+  "h2h_last_n": 5,
+  "use_odds": true,
+  "api_daily_limit": 100,
+  "api_timeout_seconds": 25,
+  "data_dir": "./data",
+  "schedule_time_utc": "09:00",
+  "run_immediately_on_schedule_start": true,
+  "league_strength_adjustment": {
+    "39": 1.05,
+    "140": 1.00,
+    "135": 0.98,
+    "78": 1.02
+  }
+}
